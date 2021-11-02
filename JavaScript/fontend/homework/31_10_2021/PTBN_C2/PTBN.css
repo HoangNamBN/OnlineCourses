@@ -1,0 +1,26 @@
+#f1{
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 125px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+table{
+    width: 325px;
+    height: 120px;
+    text-align: center;
+}
+
+input[type = text]{
+    width: 200px;
+    border: 1px solid slategrey;
+    border-radius: 5px;
+}
+
+input[type = button]{
+    width: 49px;
+    border: 1px solid slategrey;
+    border-radius: 5px;
+}

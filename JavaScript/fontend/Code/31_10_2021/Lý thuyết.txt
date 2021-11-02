@@ -1,0 +1,7 @@
+- JavaScript là ngôn ngữ kịch bản
+- không chạy độc lập, mà chạy vào trong 1 trang web
+dùng để lập trình xử lý dữ liệu form, kiểm tra hợp lệ form
+- các lệnh 
+
++ hiển thị: docment.write();
+// khai báo biến: không bắt buộc khai báo kiểu dữ liệu

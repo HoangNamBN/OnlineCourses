@@ -1,0 +1,48 @@
+h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.f1{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+div{
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 10px;
+    width: 350px;
+}
+
+label{
+    margin-left: 20px;
+}
+
+input[type = text]{
+    width: 200px;
+    margin-right: 40px;
+    border: 1px solid darkgray;
+}
+
+#bt{
+    margin-left: 210px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 100px;
+}
+
+#tUser{
+    margin-left: 15px;
+}
+#tPass{
+    margin-left: 22px;
+    -webkit-text-security: circle;
+}

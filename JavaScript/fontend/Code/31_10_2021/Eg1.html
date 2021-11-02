@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script lang="javascript" src="./Function.js"></script>
+</head>
+
+<body>
+    <!-- <h2>ví dụ về vòng lặp và hiển thị thông tin và hội thoại</h2> -->
+    <script lang="javadcript">
+        // không cần khai báo kiểu dữ liệu cho biến + hiển thị thông tin
+        /*
+            ho = "Trần";
+            ten = "Văn Nam";
+            hoten = ho + " " + ten;
+            var age = 20;
+            document.write("<br> Họ và tên: " + hoten, "<br> Tuổi: " + age)
+        */
+
+
+        // lệnh if else. Nếu dùng nháy kép thì thêm dấu \"
+        /*
+            for (i = 1; i <= 5; i++) {
+                if (i % 2 == 1)
+                    document.write("<p style = 'color: red'> Dòng thứ " + i);
+                else
+                    document.write("<p style = 'color: blue'> Dòng thứ " + i);
+            }
+        */
+
+        // hiển thị hộp thoại
+        // aleret là nội dung bình thường không được dùng các thẻ
+        // window.alerrt: dùng để hiển thị hộp thoại
+        // window.prompt: hộp thoạinhập văn bản
+        // window.confirm: hộp thoiaj hỏi đáp: hiện 2 nút OK - Cannel trả về true false
+        /*
+            window.alert("Hello javacript");
+            gioitinh = window.confirm("Giới tính của bạn ? (OK - Nam, Cancel - Nữ")
+            if (gioitinh == true)
+                document.write("<br> Giới tính: <b>Nam</b>");
+            else
+                document.write("< br > Giới tính: <b>Nữ</b>");
+            hoten = window.prompt("Nhập họ tên: ", "abc");
+            if (hoten == null)
+                document.write("< br > Bạn nhấn cannel");
+            else if (hoten == "")
+                document.write("<br> Bạn chưa nhập họ tên");
+            else
+                document.write("<br> Xin chào: <b>" + hoten + "</b>");
+        */
+        // gọi hàm
+        tong = sum(5, 6);
+        document.write("<br> Tổng: " + tong);
+
+    </script>
+    <h2>Gọi hàm trong sự kiện click</h2>
+    <a href="#" onclick="javascript:Hello()">HELLO</a>
+    <h2>Cách gọi hàm trong sự kiện click kiểu 2</h2>
+    <a href="#" onclick="Hello();">HELLO cách 2</a>
+</body>
+</html>

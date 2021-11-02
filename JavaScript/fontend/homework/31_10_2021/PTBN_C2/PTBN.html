@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./PTBN.css">
+    <script src="./Source.js"></script>
+</head>
+<body>
+    <h2 style="text-align: center;">Phương trình Bậc 1: a*x + b = 0</h2>
+    <form name="f1" id = "f1">
+        <table>
+            <tr>
+                <td width = "30%"> Hệ số a: </td>
+                <td width = "70%"><input type="text" name="tA" id="tA" placeholder="Nhập hệ số a"></td>
+            </tr>
+            <tr>
+                <td width = "30%"> Hệ số b: </td>
+                <td width = "70%"><input type="text" name="tB" id="tB" placeholder="Nhập hệ số b"></td>
+            </tr>
+            <tr>
+                <td width = "30%"></td>
+                <td width = "70%">
+                    <input type="button" name="b1" id="b1" value="+" onclick="javascript:GiaiPTB1(this.value);">
+                    <input type="button" name="b2" id="b2" value="-" onclick="javascript:GiaiPTB1(this.value);">
+                    <input type="button" name="b3" id="b3" value="*" onclick="javascript:GiaiPTB1(this.value);">
+                    <input type="button" name="b4" id="b4" value="/" onclick="javascript:GiaiPTB1(this.value);">
+                </td>
+            </tr>
+            <tr>
+                <td width = "30%">Kết quả: </td>
+                <td width = "70%"><input type="text" name="txtKQ" id="txtKQ"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
