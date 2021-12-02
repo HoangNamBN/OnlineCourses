@@ -1,0 +1,35 @@
+MỘT SỐ KHÁI NIỆM VỀ JAVA CORE
+1. Tổ chức source trong dự án Java
+- Mỗi class được định nghĩa trên 1 tệp có đuôi classname.java
+- Trong một tệp có thể định nghĩa nhiều lớp phụ khác
+- Các lớp thì lại được tổ chức trong package. 
+  Mỗi package sẽ tương tứng với 1 folder trên ổ đĩa cùng tên trong thư mục src của dự án.
+- Đường dẫn tới các lớp trong dự án Java có dạng package1.package2.class
+- Nếu class nằm cùng package hoặc nằm ở package gốc thì không cần đường dẫn
+2. Khái niệm Serlet
+- là 1 class kế thừa từ lớp HttpServlet
+- cho phép thực thị từ đường link trên trình duyệt tới máy chủ
+- có thể lấy được các thông tin mà trình duyệt gửi tới từ đó đối tượng HttpServletRequest có thể hiển
+  thị thông tin mã web gồm html, css, javascript, JSon hay XML thông qua các đối tượng HttpServletResponse về trình duyệt.
+- Servlet tương được như một trang web, hoàn toàn là java
+
+3. Các bước để tạo ra một dự án web cơ bản
+- Bước 1: CHọn Java --> Java Aplicatipon để tạo ra một project mới
+- Bước 2: Điền thông tin dự án --> Next thì sẽ tự sinh ra các folder con 
+- Bước 3: Chọn Server như lúc cài Netbean đã chọn
+- Bước 4: Bỏ qua các framework vì chưa học
+- Bước 5: Chạy thử Chọn google chorme hoặc bất kỳ trình duyệt nào nếu muốn
+  và nó sẽ chạy ra file index.html
+
+4. Tạo trang web mới sử dụng công nghệ cơ bản nhất Sevrlet mới
+- Chọn New -> Sevrlet --> Điền className
+
+
+BUỔI 2:
+Ngày 30/11: Phạm vi truy cập trong Java
+Thể hiện tính đóng gói trong lập trình Java
+2.1 Các phạm vi truy cập gồm:
++ private: đóng gói trong một lớp, không cho lớp khác truy cập
++ public: 
++ ptotected:
++ internal:

@@ -1,0 +1,58 @@
+1. OOP là gì?
+    - OPP (lập trình hướng đối tượng) là kỹ thuật lập trình tạo ra đối tượng
+
+2. So sánh giữa lớp và đối tượng?
+    - Lớp là bao quát của đối tượng, còn đối tượng là thể hiện cho lớp.
+
+3. Java là gì? Cú pháp tạo 1 class ,1 đối tượng?
+    - Java là ngôn ngữ lập trình bậc cao.
+    - cú pháp khai báo một class: Class <ClassName>{}
+    - cú pháp khai báo một đối tượng: <ClassName> obj = new <ClassName>();
+
+4. Thuộc tính là gì? Khai báo các phạm vi truy cập của thuộc tính?
+    - thuộc tính: là đặc điểm của đối tượng.
+    - khai báo các phạm vi truy cập: private, public, protected, ...
+
+5. Phương thức trong java là gì? Cú pháp khai báo 1 phương thức và cách gọi phương thức đó?
+    - Phương thức trong java (method): 
+        + khối mã chạy chỉ khi nào được gọi.
+        + là hành vi, hành động của đối tượng (eg: Dog có các hành động là chạy, ăn , nghe, ...)
+    - cú pháp khai báo 1 phương thức
+      + hàm không có giá trị trả về: public void nameMethod(){}
+      + hàm có giá trị trả về: public <kiểu dữ liệu trả về> nameMethod(){ return <giá trị có kiểu dữ liệu cần trả về>}
+    - cách gọi phương thức:
+      + hàm có giá trị trả về: <kiểu dữ liệu cần trả về> nameVariable = nameMethod();
+      + hàm không có giá trị trả về: nameMethod();
+
+6. Khi khai báo static tại phương thức thì có nghĩa là gì? Khi không khai báo từ khóa static
+    - static: không cần khởi tạo đối tượng khi gọi phương thức
+    - không có từ khóa static: cần phải khởi tạo ra một đối tượng sau đó gọi phương thức thông qua đối tượng.
+
+7. Java contructor là gì? cú pháp khai báo?từ khóa this trong hàm khởi tạo có tham số  ?
+    - Java contructor: để khởi tạo và trả về đối tượng (hiểu theo ý khác là hàm khởi tạo)
+    - Có 2 loại contructor: 
+        + contructor mặc định: public nameClass(){}
+        + contructor có tham số: public nameClasS(String name){this.name = name}
+    - từ khóa this: trỏ đến biến của class còn name bên phải là giá trị truyền vào.
+
+8.Tính đóng gói trong java được thể hiện như nao?Getter setter có nghĩa là gì?
+    - tính đóng gói:
+        + phạm vi truy cập 
+        + các thuộc tính và phương thức liên quan đến nhau thì được đóng gói trong 1 class
+    - getter: lấy giá trị của các thuộc tính
+    - setter: set giá trị cho các thuộc tính
+
+9.Tính kế thừa trong java?
+    - tính kế thừa: là lớp con được sử dụng lại các thuộc tính và phương thức trong lớp cha.
+    - không có đa kế thừa class ( 1 lớp không thể kế thừa nhiều lớp)
+    - đa kế thừa chỉ xảy ra giữa 1 interface kế thừa nhiều interface.
+
+10.so sánh override và overload?
+    - override:
+        + ghi đè phương thức: lớp con định nghĩa lại phương thức của lớp cha.
+        + xảy ra ở 2 class kế thừa nhau
+        + giống nhau về tham số và kiểu dữ liệu trả về.
+    - overload:
+        + nạp chồng phương thức: 1 lớp có nhiều phương thức có cùng tên.
+        + xảy ra trong 1 class
+        + khác nhau về kiểu dữ liệu hoặc số lượng tham số truyền vào.
