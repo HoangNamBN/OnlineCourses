@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb2021/JavaCore/JavaCore.iml" filepath="$PROJECT_DIR$/JavaWeb2021/JavaCore/JavaCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb2021/JavaT3H/JavaT3H.iml" filepath="$PROJECT_DIR$/JavaWeb2021/JavaT3H/JavaT3H.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb2021/JavaWeb/JavaWeb.iml" filepath="$PROJECT_DIR$/JavaWeb2021/JavaWeb/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb2021/JavaWeb_Buoi2XuLyForm/JavaWeb_Buoi2XuLyForm.iml" filepath="$PROJECT_DIR$/JavaWeb2021/JavaWeb_Buoi2XuLyForm/JavaWeb_Buoi2XuLyForm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/OnlineCourses.iml" filepath="$PROJECT_DIR$/.idea/OnlineCourses.iml" />
+    </modules>
+  </component>
+</project>

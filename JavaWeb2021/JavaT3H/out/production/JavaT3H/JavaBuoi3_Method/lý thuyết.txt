@@ -1,0 +1,18 @@
+1. Có bao nhiêu loại method
+- có 2 loại phương thức:
+ + có tham số và không tham số
+  public void nhap(){}
+  public void nhap(int n){}
+ + có trả về và không trả về
+  public float nhap(){ return ;}
+  public void nhap(){}
+2. Phương thức là gì?
+- phương thức là hành động của đối tượng.
+3. Nạp chồng phương thức
+- được sử dụng trong 1 class
+- có nhiều phương thức cùng tên nhưng có thể khác nhau về tham số
+hoặc kiểu dữ liệu trả về.
+4. Ghi đè phương thức
+- xảy ra trong 2 class kế thừa
+- ghi đè phương thức có nghĩa là lớp con định nghĩa lại phương thức của lớp cha
+- phải giống nhau về tham số hoặc kiểu dữ liệu trả về.
