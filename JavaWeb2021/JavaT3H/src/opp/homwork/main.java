@@ -1,4 +1,4 @@
-package T3H.opp.homwork;
+package opp.homwork;
 
 public class main {
     public static void main(String[] args) {

@@ -1,0 +1,55 @@
+I. Biến
+    1. Biến trong lập trình Java là gì?
+    2. Các loại biến trong Java ?
+    3. Khai báo 1 biến trong Java với tất cả kiểu dữ liệu ?
+    4. Hiển thị giá trị trong biến của câu 3
+
+II. Kiểu dữ liệu
+    5. kiểu dữ liệu trong Java là gì ?
+    6. Kiểu dữ liệu nguyên thủy ?
+    7. Tìm hiểu các kiểu dữ liệu Integer, Float, Boolean, kiểu kí tự, kiểu chuỗi, kiểu đối tượng ?
+
+III. Toán tử
+    8. Toán tử là gì?
+    9. Toán tử số học, toán tử gán, toán tử so sánh, toán tử logic
+
+IV. Strings, String Builder, String Buffer
+    10. String, String Builder, String Buffer trong Java ?
+    11. Liệt kê các hàm sử dụng để xử lý chuỗi ? Lấy ví dụ ? So sánh dấu = và phương thức equals.
+        So sánh Equals và Hashcode
+    12. Dấu +, So sanh String, String Builder, String Buffer
+
+V. Ép kiểu
+    13. Tìm hiểu về ép kiểu ? Lấy ví dụ
+
+VI. Mệnh đề if else, switch, vòng lặp (while, do while, for, foreach)
+    14. Tìm hiểu ý VI
+    15. từ khóa break, continue, return
+    16. So sánh từ khóa break và ruturn. So sánh for và foreach
+
+VII. Mảng
+    17. Mảng trong Java là gì ? Cú pháp khai báo ?
+    18. Tìm hiểu cách: lấy giá trị phần tử, cập nhật giá trị phần tử, độ dài của mảng.
+    19. Nêu các cách duyệt mảng.
+
+VIII. Method (Phương thức)
+    20. Method là gì ?
+    21. Cách tạo Method với hàm có trả về và không trả về ? có tham số và không tham số
+    22. So sánh override và overload.
+
+IX: Lập trình hướng đối tượng
+    23. Lập trình hướng đối tượng là gì?
+    24. các tính chất của lập trình hướng đối tượng ? Ví dụ minh họa
+
+X. Object
+    25. Object là gì?
+    26. Cú pháp khai báo class, object. Tạo ra class SinhVien với hàm khởi contructor mặc định,
+        hàm khởi tạo contruct có tham số, và có nhiều tham số
+    27. Thuộc tính là gì?
+
+XI. Phạm vi truy cập
+    28. Tìm hiểu từ khóa public, private, protected, static, final
+
+XII. Interface và Abstract
+    29. Nêu hiểu biết về inteface và abstract
+    30. Nêu sự khác nhau giữa interface và abstract? Khi nào dùng interface và khi nào dùng abstract

@@ -1,4 +1,4 @@
-package T3H.opp.homwork;
+package opp.homwork;
 
 import java.util.Locale;
 import java.util.Scanner;

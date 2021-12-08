@@ -1,6 +1,6 @@
-package JavaBuoi2.phamvitruycap;
+package JavaCore.JavaBuoi2.phamvitruycap;
 
-import JavaBuoi2.phamvitruycap.ConNguoi;
+import JavaCore.JavaBuoi2.phamvitruycap.ConNguoi;
 
 public class Main {
 

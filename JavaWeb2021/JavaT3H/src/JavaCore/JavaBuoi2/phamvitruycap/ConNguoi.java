@@ -1,4 +1,4 @@
-package JavaBuoi2.phamvitruycap;
+package JavaCore.JavaBuoi2.phamvitruycap;
 
 /**
 ý nghĩa của phạm vi truy cập (tính đóng gói trong lập trình)

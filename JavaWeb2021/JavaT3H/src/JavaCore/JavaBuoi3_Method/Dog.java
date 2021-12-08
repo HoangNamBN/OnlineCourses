@@ -1,4 +1,4 @@
-package JavaBuoi3_Method;
+package JavaCore.JavaBuoi3_Method;
 
 public class Dog extends Animal{
     // khi không khai báo phạm vi truy cập cho thuộc tính

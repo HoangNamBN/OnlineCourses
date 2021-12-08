@@ -1,4 +1,4 @@
-package JavaBuoi3_Method;
+package JavaCore.JavaBuoi3_Method;
 
 public class Animal {
     public void HienThi(){

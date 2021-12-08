@@ -1,4 +1,4 @@
-package JavaBuoi2.demoNhapXuat;
+package JavaCore.JavaBuoi2.demoNhapXuat;
 
 import java.util.Scanner;
 

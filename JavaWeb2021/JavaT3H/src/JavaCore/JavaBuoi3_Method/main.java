@@ -1,4 +1,4 @@
-package JavaBuoi3_Method;
+package JavaCore.JavaBuoi3_Method;
 
 public class main {
     public static void main(String[] args) {

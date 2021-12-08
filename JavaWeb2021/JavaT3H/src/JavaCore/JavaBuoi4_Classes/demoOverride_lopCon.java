@@ -1,4 +1,4 @@
-package JavaBuoi4_Classes;
+package JavaCore.JavaBuoi4_Classes;
 
 import java.util.Scanner;
 

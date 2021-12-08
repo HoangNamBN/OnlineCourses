@@ -1,6 +1,4 @@
-package T3H.opp.Class1;
-
-import T3H.opp.Class1.Animal;
+package opp.Class1;
 
 public class Cat extends Animal {
     private int age;

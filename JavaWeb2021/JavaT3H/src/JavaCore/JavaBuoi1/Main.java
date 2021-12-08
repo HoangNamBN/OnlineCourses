@@ -1,4 +1,4 @@
-package JavaBuoi1;
+package JavaCore.JavaBuoi1;
 
 public class Main {
     public static void main(String[] arg){

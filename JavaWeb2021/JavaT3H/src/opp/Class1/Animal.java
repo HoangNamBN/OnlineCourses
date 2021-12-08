@@ -1,4 +1,4 @@
-package T3H.opp.Class1;
+package opp.Class1;
 
 public class Animal {
     private String name;

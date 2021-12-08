@@ -1,4 +1,4 @@
-package JavaBuoi2.demoKeThua;
+package JavaCore.JavaBuoi2.demoKeThua;
 
 public class ConNguoi {
     private String hoTen;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package JavaBuoi2.demoKeThua;
+package JavaCore.JavaBuoi2.demoKeThua;
 
 /**
  *
