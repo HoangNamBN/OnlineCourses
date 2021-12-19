@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Ngay03_MangDongWeb:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ngay03_MangDongWeb_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Ngay03_MangDongWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Ngay03_MangDongWeb" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

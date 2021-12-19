@@ -37,7 +37,7 @@ public class ClsTaiKhoan {
     public static float getLaiSuat() {
         return laiSuat;
     }
-    
+
     public static void setLaiSuat(float laiSuat) {
         ClsTaiKhoan.laiSuat = laiSuat;
     }

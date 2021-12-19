@@ -37,19 +37,20 @@ public class ClsTaiKhoan {
     public static float getLaiSuat() {
         return laiSuat;
     }
-    
+
     public static void setLaiSuat(float laiSuat) {
         ClsTaiKhoan.laiSuat = laiSuat;
     }
-    
-    public void hienThi(){
+
+    public void hienThi() {
         System.out.println("Số tài khoản: " + this.soTK);
         System.out.println("Số dư: " + this.soDu);
-        System.out.println("Lãi suất: " + (this.soDu*laiSuat));
+        System.out.println("Lãi suất: " + (this.soDu * laiSuat));
     }
+
     // hàm static chỉ được phép truy cập vaò các member khác
     // không được truy cập vào các non static member
-    public static void hienThiThongTin(){
+    public static void hienThiThongTin() {
         System.out.println("Lãi suất: " + laiSuat);
     }
 
